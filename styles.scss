@@ -1,0 +1,84 @@
+/*body {
+  background-color: orange;
+}*/
+
+
+
+.button {
+  background-color: red;
+}
+
+.li {
+  border: 2px dotted green;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+  color: blue;
+}
+
+.li:hover {
+  border: 2px dotted green;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+  transform: rotate(1080deg);
+  transition: 2s
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 50px;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  border: solid blue 2px;
+  width: 30%;
+  background-color: red;
+}
+
+.submit {
+  
+  background-color: red;
+  transition: 2s
+}
+
+.ulContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 2px purple;
+  width: 30%;
+}
+.ulContainerTwo {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.submit:hover {
+  
+  background-color: red;
+  transform: translate(20px, 20px);
+  transition: 2s;
+}
+
+.input {
+  transition: all 2s;
+}
+
+.input:hover {
+  background-color: red;
+  transition: all 2s;
+}
+
+.input:focus {
+  background-color: red;
+  transition: all 4s;
+}
